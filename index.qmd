@@ -1,0 +1,44 @@
+---
+title: "Yuha's Web Sketchbook"
+---
+
+Hello, my name is Yuha from Y2 CNM! I'm from South Korea and this is my second year living in Singapore. I like playing the guitar, canoeing, and doodling in my notebook. Taking NM2207 is my first time learning to code. It's been a challenge, but I feel proud when I see myself progressing!
+
+### Weekly Content
+
+#### Week 1
+
+##### [Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Challenge-1.pdf)
+
+#### Week 2
+
+##### [Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Challenge-2.pdf)
+
+#### Week 3
+
+##### [Code-along](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week-3_%20Code-along.pdf)
+##### [Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Challenge-3.pdf)
+
+#### Week 4
+
+##### [Code-along](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week-4_%20Code-along.pdf)
+##### [Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Challenge-4%20completed.pdf)
+
+#### Week 5
+
+##### [Code-along](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Yuha%20Kim_Week-5_%20Code-along.pdf)
+##### [Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Yuha_Kim%20Challenge-5.pdf)
+
+#### Week 6
+
+##### [Code-along](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Yuha%20Kim_Week-6_%20Code-along.pdf)
+##### [Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Yuha%20Kim_Challenge-6.pdf)
+
+#### Week 8
+
+##### [Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Challenge-8.pdf)
+
+#### Week 9
+
+##### [Code-along & Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%209_Code-along%20and%20Challenge.pdf)
+##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%209%20Diary%20Entry.pdf)
