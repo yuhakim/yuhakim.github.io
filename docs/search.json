@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Yuha’s Web Sketchbook",
     "section": "",
-    "text": "Hello, my name is Yuha from Y2 CNM! I’m from South Korea and this is my second year living in Singapore. I like playing the guitar, canoeing, and doodling in my notebook. Taking NM2207 is my first time learning to code. It’s been a challenge, but I feel proud when I see myself progressing!\n\nWeekly Content\n\nWeek 1\n\nChallenge\n\n\n\nWeek 2\n\nChallenge\n\n\n\nWeek 3\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 4\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 5\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 6\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 8\n\nChallenge\n\n\n\nWeek 9\n\nCode-along & Challenge\n\n\nFinal Project Diary Entry\n\n\n\nWeek 10\n\nFinal Project Diary Entry"
+    "text": "Hello, my name is Yuha from Y2 CNM! I’m from South Korea and this is my second year living in Singapore. I like playing the guitar, canoeing, and doodling in my notebook. Taking NM2207 is my first time learning to code. It’s been a challenge, but I feel proud when I see myself progressing!\n\nWeekly Content\n\nWeek 1\n\nChallenge\n\n\n\nWeek 2\n\nChallenge\n\n\n\nWeek 3\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 4\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 5\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 6\n\nCode-along\n\n\nChallenge\n\n\n\nWeek 8\n\nChallenge\n\n\n\nWeek 9\n\nCode-along & Challenge\n\n\nFinal Project Diary Entry\n\n\n\nWeek 10\n\nFinal Project Diary Entry\n\n\n\nWeek 11\n\nFinal Project Diary Entry"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "write-up.html",
+    "href": "write-up.html",
+    "title": "write-up",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "write-up.html#running-code",
+    "href": "write-up.html#running-code",
+    "title": "write-up",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   }
 ]
