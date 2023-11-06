@@ -4,4 +4,16 @@ format: html
 editor: visual
 ---
 
-## Write-up
+#### Week 9
+
+##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%209%20Diary%20Entry.pdf)
+
+#### Week 10 
+
+##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2010%20Diary%20Entry.pdf)
+
+#### Week 11
+
+##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2011%20Diary%20Entry.pdf)
+
+#### Week 12

@@ -1,24 +1,42 @@
 ---
-title: "Visualizations"
+title: "Data Story"
 format: html
 editor: visual
 ---
 
-## Visualizations
-
-```{r}
+```{r, echo=FALSE, eval=TRUE}
 library(tidyverse)
 ```
 
-```{r}
+```{r, echo=FALSE}
 sleep <- read_csv("sleep.csv")
 ```
 
-```{r}
+```{r, echo=FALSE}
 glimpse(sleep)
 ```
 
 ```{r}
-ggplot(data = sleep, 
-       mapping = aes(x = `Physical Activity Level`, y = `Sleep Duration`, colour = Occupation)) + geom_point()
+library(ggplot2)
+library(plotly)
+
+graph <- ggplot(data = sleep, 
+       mapping = aes(x = `Physical Activity Level`, y = `Sleep Duration`, colour = Occupation)) + 
+  geom_point() + 
+  labs(title = "Physical Activity Level and Sleep Duration for Different Occupations", caption = "Source: Kaggle")
+
+graph_interactive <- ggplotly(graph)
+graph_interactive
+```
+```{r}
+library(ggplot2)
+library(plotly)
+
+graphh <- ggplot(data = sleep, 
+       mapping = aes(x = `Physical Activity Level`, y = `Sleep Duration`, colour = Occupation)) + 
+  geom_point() + 
+  labs(title = "Physical Activity Level and Sleep Duration for Different Occupations (Visual #2)", caption = "Source: Kaggle") + facet_wrap(. ~ Occupation, ncol = 3)
+
+graphh_interactive <- ggplotly(graphh)
+graphh_interactive
 ```

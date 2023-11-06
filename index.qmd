@@ -41,12 +41,4 @@ Hello, my name is Yuha from Y2 CNM! I'm from South Korea and this is my second y
 #### Week 9
 
 ##### [Code-along & Challenge](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%209_Code-along%20and%20Challenge.pdf)
-##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%209%20Diary%20Entry.pdf)
 
-#### Week 10 
-
-##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2010%20Diary%20Entry.pdf)
-
-#### Week 11
-
-##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2011%20Diary%20Entry.pdf)
