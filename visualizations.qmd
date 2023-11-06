@@ -5,3 +5,20 @@ editor: visual
 ---
 
 ## Visualizations
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+sleep <- read_csv("sleep.csv")
+```
+
+```{r}
+glimpse(sleep)
+```
+
+```{r}
+ggplot(data = sleep, 
+       mapping = aes(x = `Physical Activity Level`, y = `Sleep Duration`, colour = Occupation)) + geom_point()
+```
