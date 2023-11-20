@@ -8,7 +8,7 @@ editor: visual
 
 ##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%209%20Diary%20Entry.pdf)
 
-#### Week 10 
+#### Week 10
 
 ##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2010%20Diary%20Entry.pdf)
 
@@ -17,3 +17,9 @@ editor: visual
 ##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2011%20Diary%20Entry.pdf)
 
 #### Week 12
+
+##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2012%20Diary%20Entry.pdf)
+
+#### Week 13
+
+##### [Final Project Diary Entry]
