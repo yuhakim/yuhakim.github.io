@@ -22,4 +22,6 @@ editor: visual
 
 #### Week 13
 
-##### [Final Project Diary Entry]
+##### [Final Project Diary Entry](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Week%2013%20Diary%20Entry.pdf)
+
+##### [Corresponding Code Script](https://github.com/yuhakim/Code-alongs-and-Challenges/blob/main/Code%20Script.R)

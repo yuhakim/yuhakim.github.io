@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+My data story investigates the relationship between the amount of physical activity and the sleep duration for different occupations. This topic is worth exploring because some jobs are more demanding than others, resulting in a high stress level. Thus, it is hypothesized that even though it is commonly known that higher physical activity is correlated with better sleep, this relation may not hold up for all jobs. My investigation aims to examine how sleep and physical activity differs by occupations through two sets of visualization.
+
 ```{r, echo=FALSE, eval=TRUE}
 library(tidyverse)
 ```
@@ -28,15 +30,28 @@ graph <- ggplot(data = sleep,
 graph_interactive <- ggplotly(graph)
 graph_interactive
 ```
+
+The visualization #1 graphs the physical activity level in relation to sleep duration. The general trend of the graph is upward-sloping, with higher physical activity level correlated to higher sleep duration.
+
+As per the hypothesis, certain occupations deviate from the general trend. A number of engineers get more than 8 hours of sleep despite scoring lower than 40 on physical activity level. Some nurses are on the opposite side of the spectrum, getting around only 6 hours of sleep even though they score higher than 80 on physical activity level. The reason for nurses' case may be because their jobs are more physically demanding than others, which results in them getting a lot of physical activity. However, the amount of stress from being a nurse can have negatively impact their sleep, resulting in shorter sleep hours.
+
 ```{r}
 library(ggplot2)
 library(plotly)
 
-graphh <- ggplot(data = sleep, 
-       mapping = aes(x = `Physical Activity Level`, y = `Sleep Duration`, colour = Occupation)) + 
+graph <- ggplot(data = sleep, 
+       mapping = aes(x = `Physical Activity Level`, y = `Quality of Sleep`, colour = Occupation)) + 
   geom_point() + 
-  labs(title = "Physical Activity Level and Sleep Duration for Different Occupations (Visual #2)", caption = "Source: Kaggle") + facet_wrap(. ~ Occupation, ncol = 3)
+  labs(title = "Physical Activity Level and Quality of Sleep for Different Occupations", caption = "Source: Kaggle") + facet_wrap(. ~ Occupation, ncol = 3)
 
-graphh_interactive <- ggplotly(graphh)
-graphh_interactive
+graph_interactive <- ggplotly(graph)
+graph_interactive
 ```
+
+The visualization #2 displays the quality of sleep against physical activity level. I included this second visualization because I wanted to learn how the graphs would change if y-variable was quality of sleep instead of sleep duration. Quality of sleep and sleep duration are both important criteria that defines a "good sleep," and since longer sleep hours do not always mean a good quality of sleep, it is important to examine both factors to obtain a more nuanced understanding of the topic.
+
+In total, there are 11 graphs for each of the occupation. Unlike the first visualization, it is difficult to discern an overarching trend here. For software engineers and nurses, there exists a positive relationship between physical activity level and quality of sleep. On the other hand, for jobs such as engineers and lawyers, there is no clear trend. This makes it harder to predict the quality of sleep based on physical activity level for engineers and lawyers.
+
+I observed from the visualization #1 that nurses get less sleep despite the high physical activity. However, the visualization #2 shows that the quality of sleep that nurses experience is positively correlated to physical activity level. This reveals a valuable insight that although nurses get less hours of sleep, the quality of their sleep is high.
+
+Such result from visualizations lead me to further confirm the hypothesis that high level of physical activity is not necessarily correlated with better sleep for all occupations. From visualization #1, I discerned a definite upward-sloping trend, but there were also outliers (engineers and nurses) that defied the trend. From visualization #2, I emerged with an additional insight that people in some occupations, such as nurses, can experience a high quality of sleep notwithstanding the less amount of sleep. Overall, although there indeed is a positive correlation between physical activity and sleep in general, this trend does not apply for people in every occupation. Furthermore, quality of sleep and sleep duration is not necessarily proportional.
